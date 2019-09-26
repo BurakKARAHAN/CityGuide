@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <io.netopen.hotbitmapgg.library.view.RingProgressBar
+        android:layout_marginTop="20dp"
+        android:id="@+id/ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:max="100"
+        app:ringColor="@color/colorPrimary"
+        app:ringProgressColor="@color/colorPrimaryDark"
+        app:ringWidth="3dp"
+        app:style="FILL"
+        app:textColor="@color/colorPrimaryDark"
+        app:textIsShow="true"
+        app:textSize="26sp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/first"
+            android:text="55"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/plus"
+            android:text=" + "
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/second"
+            android:text="68"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/EditTextActivationCode"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+</LinearLayout>

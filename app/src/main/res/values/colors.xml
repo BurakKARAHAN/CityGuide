@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="status">#3a6e8b</color>
+    <color name="darkthema1">#0f161e</color>
+    <color name="darkthema2">#5A7276</color>
+    <color name="lightthema">#FFFF</color>
+    <color name="lightthema2">#000</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+
+
+</resources>
