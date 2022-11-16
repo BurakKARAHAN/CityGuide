@@ -19,7 +19,7 @@ Tarihi yerlerin anlık görüntülerini telefon kamerası aracılığıyla işle
 ```
 MIT License
 
-Copyright (c) 2020 [Burak Karahan](https://github.com/BurakKARAHAN)
+Copyright (c) 2020 [Burak Karahan](https://github.com/BurakKARAHAN) 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
